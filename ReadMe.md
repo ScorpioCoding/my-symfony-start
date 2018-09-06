@@ -12,7 +12,9 @@ This is based upon the Symfony/Skeleton.
     composer require symfony/web-server-bundle --dev
     php bin/console server:run
     ```
-    > OK up & running
+    > [Symfony Doc's Setup](https://symfony.com/doc/current/setup.html)  
+    OK up & running
+    
 
 2. Checking for Security Vulnerabilities  
     ```
@@ -27,7 +29,8 @@ This is based upon the Symfony/Skeleton.
     composer require twig/extensions
     php bin/console server:run
     ```
-    > OK up & running
+    > [Symfony Doc's Profiler](https://symfony.com/doc/current/profiler.html)  
+    OK up & running
     
 4. Controller - Routes - Annotations
     ```
@@ -37,19 +40,22 @@ This is based upon the Symfony/Skeleton.
     	=> created: src/Controller/BlogController.php
     	=> created: templates/blog/index.html.twig
     ```
-    > OK up & running
+    > [Symfony Doc's Page Creation](https://symfony.com/doc/current/page_creation.html)  
+    OK up & running
     
 5. Security
     ```
     composer require symfony/security-bundle
     ```
-    > NOK - Needs Setup & Database Configuration
+    > [Symfony Doc's Security](https://symfony.com/doc/current/security.html)   
+    NOK - Needs Setup & Database Configuration
 
 6. Forms
     ```
     composer require symfony/form
     ```
-    > NOK Needs testing
+    > [Symfony Doc's Forms](https://symfony.com/doc/current/forms.html)  
+    NOK Needs testing
 
 7. ORM & Doctrine
     ```
