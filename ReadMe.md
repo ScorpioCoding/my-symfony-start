@@ -16,8 +16,8 @@ This is based upon the Symfony/Skeleton.
     $ git push --all
     -> 'Eveything up to date'
     ```
-3. Use YARN or NPM
-    ```` $ yarn install ````
+3. Use YARN or NPM  
+    ```` $ yarn install ````  
     ```` $ npm install ````
  
 
@@ -123,9 +123,9 @@ This is based upon the Symfony/Skeleton.
     eslint --init
     ```
     > EsLint Init  
-        - Use a popular style guide --> Standard
-        - Output filetype --> Json
-        - Install dependencies --> yes
+        - Use a popular style guide --> Standard  
+        - Output filetype --> Json  
+        - Install dependencies --> yes  
 
 ---
 
