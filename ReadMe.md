@@ -4,6 +4,23 @@ I created this repo so that I can start up symfony 4.1 projects faster.
 This is based upon the Symfony/Skeleton.
 ---
 
+### Using this project.
+1. Clone the repo
+    - ssh : ```git@github.com:ScorpioCoding/my-symfony-start.git```
+     - https : ```https://github.com/ScorpioCoding/my-symfony-start.git```
+2. Point the project to your Repo
+    ```
+    $ git remote set-url origin <your repo link>
+    $ git remote add upstream <your repo link>
+    $ git push origin master
+    $ git push --all
+    -> 'Eveything up to date'
+    ```
+3. Use YARN or NPM
+    ```` $ yarn install ````
+    ```` $ npm install ````
+ 
+
 ### Init Symfony
 1. Create + Server
     ``` 
@@ -99,6 +116,16 @@ This is based upon the Symfony/Skeleton.
     yarn install 
     ```
     > [Symfony Doc's Encore](https://symfony.com/doc/current/frontend.html) 
+    
+13. ESlint
+    ``` 
+    npm i --save-dev eslint
+    eslint --init
+    ```
+    > EsLint Init  
+        - Use a popular style guide --> Standard
+        - Output filetype --> Json
+        - Install dependencies --> yes
 
 ---
 
