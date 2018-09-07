@@ -176,7 +176,7 @@ This is based upon the Symfony/Skeleton.
     ```
     > OK installed + Needs configuration if required
 
-
+17. Sass 7-1 pattern according to Sass Guidelines
 
 
 
