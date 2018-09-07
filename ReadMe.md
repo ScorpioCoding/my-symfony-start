@@ -127,6 +127,35 @@ This is based upon the Symfony/Skeleton.
         - Output filetype --> Json  
         - Install dependencies --> yes  
 
+14. Stylelint
+    ```
+    npm i --save-dev stylelint 
+    npm i --save-dev stylelint-config-sass-guidelines
+    npm i --save-dev stylelint-config-standard
+    touch .stylelintrc.json
+    stylelint --config .stylelintrc.json    
+    ```  
+    > There two configuration installed to choose from  
+    ``` 
+     - 1 - Active
+        {
+            "extends": "stylelint-config-sass-guidelines"
+        }
+     - 2 - Not Active
+        {
+            "extends": "stylelint-config-standard"
+        }
+    ```  
+    > phpStorm Tab & Indent modifications  
+            
+        ```
+        Settings/Preferences | Editor | Code Style          
+        -> PHP | Css | Scss | Sass| Js | etc   
+        ```  
+    > Styling to accordance of European Commission System  
+    [EC System](https://ec-europa.github.io/europa-component-library/ec/docs/conventions/scss)  
+    [stylelint-config-sass-guidelines](https://www.npmjs.com/package/stylelint-config-sass-guidelines)  
+    [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
 ---
 
 
