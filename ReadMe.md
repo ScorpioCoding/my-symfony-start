@@ -4,6 +4,23 @@ I created this repo so that I can start up symfony 4.1 projects faster.
 This is based upon the Symfony/Skeleton.
 ---
 
+### Using this project.
+1. Clone the repo
+    - ssh : ```git@github.com:ScorpioCoding/my-symfony-start.git```
+     - https : ```https://github.com/ScorpioCoding/my-symfony-start.git```
+2. Point the project to your Repo
+    ```
+    $ git remote set-url origin <your repo link>
+    $ git remote add upstream <your repo link>
+    $ git push origin master
+    $ git push --all
+    -> 'Eveything up to date'
+    ```
+3. Use YARN or NPM  
+    ```` $ yarn install ````  
+    ```` $ npm install ````
+ 
+
 ### Init Symfony
 1. Create + Server
     ``` 
@@ -99,6 +116,69 @@ This is based upon the Symfony/Skeleton.
     yarn install 
     ```
     > [Symfony Doc's Encore](https://symfony.com/doc/current/frontend.html) 
+    
+13. ESlint
+    ``` 
+    npm i --save-dev eslint
+    eslint --init
+    ```
+    > EsLint Init  
+        - Use a popular style guide --> Standard  
+        - Output filetype --> Json  
+        - Install dependencies --> yes    
+        
+    > OK Up & Running
+
+14. Stylelint
+    ```
+    npm i --save-dev stylelint 
+    npm i --save-dev stylelint-config-sass-guidelines
+    npm i --save-dev stylelint-config-standard
+    touch .stylelintrc.json
+    stylelint --config .stylelintrc.json    
+    ```  
+    > There two configuration installed to choose from  
+    ``` 
+     - 1 - Active
+        {
+            "extends": "stylelint-config-sass-guidelines"
+        }
+     - 2 - Not Active
+        {
+            "extends": "stylelint-config-standard"
+        }
+    ```  
+    > phpStorm Tab & Indent modifications  
+            
+        ```
+        Settings/Preferences | Editor | Code Style          
+        -> PHP | Css | Scss | Sass| Js | etc   
+        ```  
+    > Styling to accordance of European Commission System  
+    [EC System](https://ec-europa.github.io/europa-component-library/ec/docs/conventions/scss)  
+    [stylelint-config-sass-guidelines](https://www.npmjs.com/package/stylelint-config-sass-guidelines)  
+    [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
+    
+    > OK Up & Running
+    
+15. Webpack Config & Install of Assets
+    ```
+    npm i --save-dev sass-loader
+    npm i --save-dev node-sass 
+    npm i --save-dev jquery
+    ```  
+    > OK Up & Running
+
+16. Bootstrap & Bootswatch
+    ```
+    npm i --save-dev bootstrap-sass
+    npm i --save-dev bootswatch
+    ```
+    > OK installed + Needs configuration if required
+
+17. Sass 7-1 pattern according to Sass Guidelines
+
+
 
 ---
 

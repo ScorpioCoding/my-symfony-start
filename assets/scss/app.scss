@@ -1,0 +1,23 @@
+// setting the value of this variable to an empty data URL is the only working solution
+// to load the Bootswatch web fonts locally and avoid loading them from Google servers
+// see https://github.com/thomaspark/bootswatch/issues/55#issuecomment-298093182
+$web-font-path: 'data:text/css;base64,';
+
+// 1. Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+// 2. Vendors
+// 3. Base
+@import 'base/reset';
+@import 'base/typography';
+// 4. Layout
+@import 'layout/header';
+@import 'layout/footer';
+// 5. Components
+// 6. Pages
+@import 'pages/home';
+@import 'pages/contact';
+// 7. Themes
