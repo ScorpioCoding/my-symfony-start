@@ -166,8 +166,15 @@ This is based upon the Symfony/Skeleton.
     npm i --save-dev sass-loader
     npm i --save-dev node-sass 
     npm i --save-dev jquery
-    ```
+    ```  
+    > OK Up & Running
 
+16. Bootstrap & Bootswatch
+    ```
+    npm i --save-dev bootstrap-sass
+    npm i --save-dev bootswatch
+    ```
+    > OK installed + Needs configuration if required
 
 
 
