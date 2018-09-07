@@ -125,7 +125,9 @@ This is based upon the Symfony/Skeleton.
     > EsLint Init  
         - Use a popular style guide --> Standard  
         - Output filetype --> Json  
-        - Install dependencies --> yes  
+        - Install dependencies --> yes    
+        
+    > OK Up & Running
 
 14. Stylelint
     ```
@@ -156,6 +158,21 @@ This is based upon the Symfony/Skeleton.
     [EC System](https://ec-europa.github.io/europa-component-library/ec/docs/conventions/scss)  
     [stylelint-config-sass-guidelines](https://www.npmjs.com/package/stylelint-config-sass-guidelines)  
     [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
+    
+    > OK Up & Running
+    
+15. Webpack Config & Install of Assets
+    ```
+    npm i --save-dev sass-loader
+    npm i --save-dev node-sass 
+    npm i --save-dev jquery
+    ```
+
+
+
+
+
+
 ---
 
 
